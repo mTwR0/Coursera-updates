@@ -1,0 +1,4 @@
+did: went thru shutil and psutil basic  usage. learned a bit about automation and when to use it. set up a venv
+why: automation is an useful tool, saves a lot of time, seems very fun to do.
+question: are python modules as the course defines them not just python files that can be imported and contain scripts, like a regular file? if you need a function form them just import it - from file1.py import func1
+

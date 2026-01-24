@@ -1,5 +1,0 @@
-day 1 notes:- 23.01.26
-did: restarted 'using python to interact with os', learned about interpreted languages, ran small script in cmd
-why: useful general knowledge, might help later knowing what happens with the os when the program runs
-question: why would anyone ever run scripts in the cmd directly instead of using an interpreter
-
