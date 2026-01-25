@@ -1,0 +1,3 @@
+did: started to work with basic txt files, read lines, display text on screen
+why: very useful in future - will need to work with excels, take data, display, modify --> pandas
+question: daca ai un file de x sute de mega, foarte mare, cum faci sa nu incarci sistemul? daca o deschizi in cod, theoretic s-a rezervat memoria - chair daca dai cu with open si citesti cate o linie de ex
