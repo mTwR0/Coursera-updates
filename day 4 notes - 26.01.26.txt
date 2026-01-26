@@ -1,0 +1,3 @@
+did: learned about paths, wrote content to this file using the built in python file management function 
+why: i will use files a lot, for example txts for logs and automated testing, for example for testing AI outputs
+question: i still dont understand too deeply how relative paths work - imo its useful but you need to know how to actualyl navigate between files -> go 1 directory above/ below, etc

@@ -1,12 +1,9 @@
-# 5 days* 15 min* 3/day * 4weeks
-# 10h total time 
-# relative vs absolute paths
-# open - use - close
-
-# f = open("day 1 notes- 23.01.26.txt")
-# print(f.read())
-# f.close()
-
+# Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+# git init
+# git add .
+# git commit -m "mesaj"
+# git branch -M main
+# git push -u origin main
 # with open ("day 1 notes- 23.01.26.txt") as f:
 #     print( f.readlines())
 
