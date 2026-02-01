@@ -1,0 +1,3 @@
+did: excel test 
+why: practiced
+question: in reading a csv which had a header (name,pwd) then data, i read the file, then i used: for row in reader: name,pwd = row then i used break to get rid of "name" and "pwd". is there another way to get rid of the column names?
