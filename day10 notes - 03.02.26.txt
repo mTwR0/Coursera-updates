@@ -1,0 +1,3 @@
+did: re-started work on the quickalbs assignment thru vscode
+why: finally putting things into practice
+question: i thought i would be better, but any knowledge- for eg. dictionaries/ file paths, etc i do not use, i forget. i have might need to go back and re-write some earlier lessons
