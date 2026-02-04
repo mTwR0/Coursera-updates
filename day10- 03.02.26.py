@@ -45,7 +45,7 @@ accounts = [
 #     writer = csv.writer(f,lineterminator='\n')
 #     writer.writerows(accounts)
 csv_path = os.path.abspath('employees.csv')
-print(csv_path)
+#print(csv_path)
 
 def read_employees(csv_file_location):
     csv.register_dialect('empdialect',skipinitialspace=True,strict=True)
@@ -55,16 +55,41 @@ def read_employees(csv_file_location):
         employee_list.append(dict(row))
     return employee_list
 emp_dict = read_employees('employees.csv')
-print(emp_dict)
+#print(emp_dict)
 
 # The second function process_data() should now receive the list of dictionaries, 
 # i.e., employee_list as a parameter and return a dictionary of department:amount.
 
 def process_data(dict_list):
     dept_amnts={}
+    dept_list=[]
     for dicts in dict_list:
         # {'Full Name': 'Audrey Miller', 'Username': 'audrey', 'Department': 'Development'}
-        
-        pass
+        # daca nu are cheia facuta o faci
+        # daca o are faauta adaugi +1 la counter
+        # avem nev de o lista cu departamentele posibile
+        #if dicts['Department'] not in dept_list:
+        # o lista redundanta --> poti sa numeri de cate ori apare fiecare
+        dept_list.append(dicts['Department'])
+        #print(dept_list)
+    for department in dept_list:
+        dept_amnts[department]=dept_list.count(department)
+    #print(dept_amnts)
+        #dept_amnts['Department']=dicts['Department']
+        #print(dept_amnts)
+        #dept_amnts["dept"]
+    return dept_amnts
 
-process_data(emp_dict)
+dept_amounts= process_data(emp_dict)
+#print(dept_amounts)
+
+def generate_report(dict):
+    # <department1>: <amount1> format
+    pass
+    f = open ('report.txt','w')
+    f.write("Please find the department and the number of employees per each listed below.\n\n")
+    for item in dict.items():
+        dept,amnt= item
+        f.write(f"{dept}:{amnt}\n")
+    f.close()
+generate_report(dept_amounts)
