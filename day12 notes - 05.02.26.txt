@@ -1,0 +1,3 @@
+did: finished csv module, passed assignemnt, started regex module
+why: regex is very useful in many aspects, nto only in python --> search or modify sth in notepad for ex
+question: why do you need r before the work in this example. search(r'aa', 'baa') 
