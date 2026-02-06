@@ -11,3 +11,9 @@ import re
 # print(result[1])
 
 print( re.search(r"asa", "casa"))
+
+# git init
+# git add .
+# git commit -m "mesaj"
+# git branch -M master
+# git push -u origin master

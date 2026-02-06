@@ -1,0 +1,3 @@
+did: [], &, | in regex
+why: very useful put need to practice
+question: how to tweak .* behavior to be least greedy
