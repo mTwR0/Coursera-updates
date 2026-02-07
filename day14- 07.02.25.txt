@@ -1,0 +1,3 @@
+did: regex pattern matchin --> .* [\w\d\s] ^ $
+why: practice, startin quiz, excersie
+question: can you search anything and everyhting usign regex patterns? seems like it
