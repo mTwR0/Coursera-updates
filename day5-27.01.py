@@ -15,7 +15,7 @@ print(os.listdir(os.getcwd()))
 # git init
 # git add .
 # git commit -m "mesaj"
-# git branch -M main
-# git push -u origin main
+# git branch -M master
+# git push -u origin master
 # with open ("day 1 notes- 23.01.26.txt") as f:
 #     print( f.readlines())

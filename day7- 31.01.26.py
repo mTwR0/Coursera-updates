@@ -42,6 +42,7 @@ with open ("new_csv_file.csv", "w") as csv_f:
 
 with open ("new_csv_file.csv", "r") as csv_f:
     reader=csv.DictReader(csv_f)
+    
     for row in reader:
         print(f"name is {row["username"]}")
         print(f"password is {row["password"]}")
