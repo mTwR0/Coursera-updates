@@ -1,0 +1,3 @@
+did: more regex - wrote function to rearrange name with groups() function
+why:    ability to access multiple results 
+question: why tf does it cause an error when i use [\w \.-\s] and wy does it work when i group them togehter: [\w\s \.-]
