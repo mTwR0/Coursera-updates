@@ -1,0 +1,3 @@
+did: finally repetition qualifiers {2}. word boundaries too \b[A-Z]\b
+why:    finally wont have to write stuff by hand
+question:   can i make a regex to return a result but split by whitespace, so [0],[1] for ex, but to be encompassed in the same regex?
