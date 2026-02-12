@@ -1,0 +1,3 @@
+did: started coursera quiz, got stuck for 20 min at first question
+why: need to stop bashing head against wall and actually test little by little
+question: how to get bbetter at problem solving, handling, debugging
