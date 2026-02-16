@@ -1,10 +1,9 @@
-# on graded assignment for end of module
 import re
 def parse_city_state(text):
  pattern = r'([\w]*[,\.]+) ([\w]+)' #enter the regex pattern here
- result = re.findall(pattern, text) #enter the re method  here
+ result = re.search(pattern, text) #enter the re method  here
  print('debugging:',result)
- if len(result) != 2:
+ if len(result) != 2: # this causes an error - i do not know how to check the len of a search obj
   return ""
  return result[2] #return the correct capturing group
 
