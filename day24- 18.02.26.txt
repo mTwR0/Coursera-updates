@@ -1,0 +1,4 @@
+did:        subprocess.run 
+why:        can run system commands in scripts. let's go
+question:   ok you capture the error from a command in std err, or it fails and it gets an error code and 
+            you handle it later with result.returncode, but wont the execution get stopped in the first place because it failed?
