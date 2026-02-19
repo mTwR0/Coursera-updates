@@ -1,0 +1,3 @@
+did: more info on subprocess, but they dont really work in this ide - might need to re-try this aprt of the course on linux
+why: useful to run actual system commands, but dangerous in case of run on another system
+question: how can i generate/ find a system log file to wotk with in the next vids
