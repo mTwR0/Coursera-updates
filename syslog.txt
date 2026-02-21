@@ -1,7 +1,8 @@
-mogdan micicea is some kinda schizzo master
-rudy john german is chill like that
-alec chillen
-olex chillen
-2dan chillen
-everyone else
-CHILLEN
+
+Feb 20 10:15:32 web-server sshd[12345]: Failed password for invalid user admin from 192.168.1.100 port 54321 ssh2
+Feb 20 10:16:01 web-server CRON[12350]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 20 10:16:01 web-server CRON[123512310]: pam_unix(cron:session): session opened for user shoot by (uid=0)
+Feb 20 10:16:01 web-server CRON[23112]: pam_unix(cron:session): session opened for user big_man by (uid=0)
+Feb 20 10:16:01 web-server CRON[212]: pam_unix(cron:session): session opened for user hacker by (uid=0)
+Feb 20 10:16:02 web-server systemd[1]: Starting Daily rotation of log files...
+Feb 20 10:16:05 web-server kernel: [1234.567890] EXT4-fs (sda1): mounted filesystem with ordered data mode.
