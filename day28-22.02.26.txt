@@ -1,0 +1,3 @@
+did: finished log files module - still need to look again for using sys function in scripts. started testing module
+why: seems very useful to automate tests
+question: i tought testing was writing soem tesst ccases to a txt and running the function on the txt
