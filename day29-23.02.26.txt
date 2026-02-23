@@ -1,0 +1,3 @@
+did:more tests
+why: basic for now but might e useful for migger fnctions + its reusable
+question:can a lot of test be imported then ru aon a generic function

@@ -4,8 +4,10 @@
 
 import re
 def rearrange_name(name: str):
-    pattern = r'^([\w]+), ([\w]+)$'
+    pattern = r'^([\w \.]+), ([\w \.]+)$'
     result = re.match(pattern=pattern,string=name)
+    if result is None:
+        return name
     return f'{result[2]} {result[1]}'
     pass
 
