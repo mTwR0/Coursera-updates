@@ -15,11 +15,11 @@ class testRearrange(unittest.TestCase):
         testcase= ""
         expected=""
         self.assertEqual(rearrange_name(testcase),expected)
-    def test_dot(self):
+    def test_dot(self): 
         testcase="Saw, Kon D.Z."
         expected="Kon D.Z. Saw"
         self.assertEqual(rearrange_name(testcase),expected)
-    # functiile TREBUIE sa inceapa cu test_ daca vrei sa fie rulate automat de unittest.main()
+    # functiile TREBUIE sa inceapa cu test daca vrei sa fie rulate automat de unittest.main()
     def test_one_name(self):
         testcase='aaaa'
         expected='aaaa'
