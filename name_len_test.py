@@ -22,7 +22,7 @@ class name_len_test(unittest.TestCase):
     #     self.assertEqual(name_len2(arg1,arg2),result)
     def test_short(self):
         self.assertRaises(ValueError, name_len2, '',0)
-        # behind the scenes assertRaises calls function using try catch block
+        # behind the scenes assertRaises calls function using try except block
         
         pass 
 unittest.main()
